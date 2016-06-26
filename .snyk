@@ -1,0 +1,91 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:handlebars:20151207':
+    - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > express-handlebars > handlebars:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express-handlebars > handlebars:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > hashware-backbone-client > sails > express-handlebars > handlebars:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
+        patched: '2016-06-26T22:48:56.754Z'
+  'npm:minimatch:20160620':
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-06-26T22:48:56.754Z'
+  'npm:ms:20151024':
+    - sails-backbone > hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
+        patched: '2016-06-26T22:48:56.754Z'
+  'npm:qs:20140806-1':
+    - hashware-api > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-06-26T22:48:56.754Z'
+  'npm:request:20160119':
+    - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > grunt-contrib-less > less > request:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request:
+        patched: '2016-06-26T22:48:56.754Z'
+  'npm:uglify-js:20151024':
+    - sails-backbone > hashware-api > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > hashware-backbone-client > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-06-26T22:48:56.754Z'
