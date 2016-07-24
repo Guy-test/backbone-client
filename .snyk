@@ -12,6 +12,12 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
         patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > express-handlebars > handlebars:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > express-handlebars > handlebars:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
+        patched: '2016-07-24T17:20:47.153Z'
   'npm:minimatch:20160620':
     - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
         patched: '2016-06-26T22:48:56.754Z'
@@ -49,6 +55,124 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
         patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > grunt > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > grunt > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:20:47.153Z'
   'npm:ms:20151024':
     - sails-backbone > hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
         patched: '2016-06-26T22:48:56.754Z'
@@ -56,6 +180,10 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
         patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
+        patched: '2016-07-24T17:20:47.153Z'
   'npm:qs:20140806-1':
     - hashware-api > sails > grunt-contrib-watch > tiny-lr-fork > qs:
         patched: '2016-06-26T22:48:56.754Z'
@@ -67,6 +195,12 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > tiny-lr-fork > qs:
         patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2016-07-24T17:20:47.153Z'
   'npm:request:20160119':
     - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request:
         patched: '2016-06-26T22:48:56.754Z'
@@ -78,6 +212,12 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request:
         patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > sails > grunt-contrib-less > less > request:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request:
+        patched: '2016-07-24T17:20:47.153Z'
   'npm:uglify-js:20151024':
     - sails-backbone > hashware-api > sails > express-handlebars > handlebars > uglify-js:
         patched: '2016-06-26T22:48:56.754Z'
@@ -89,3 +229,96 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > sails > express-handlebars > handlebars > uglify-js:
         patched: '2016-06-26T22:48:56.754Z'
+    - hashware-api > hashware-backbone-client > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > express-handlebars > handlebars > uglify-js:
+        patched: '2016-07-24T17:20:47.153Z'
+  'npm:hawk:20160119':
+    - hashware-api > sails > grunt-contrib-less > less > request > hawk:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request > hawk:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request > hawk:
+        patched: '2016-07-24T17:20:47.153Z'
+  'npm:negotiator:20160616':
+    - hashware-api > sails > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > express > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > express > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > express > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > express > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > skipper > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > skipper > connect > compression > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > skipper > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > skipper > connect > serve-index > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > sails-hook-sockets > socket.io > engine.io > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > engine.io > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > engine.io > accepts > negotiator:
+        patched: '2016-07-24T17:20:47.153Z'
+  'npm:ws:20160624':
+    - hashware-api > sails > sails-hook-sockets > socket.io > engine.io > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > engine.io > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > engine.io > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
+    - hashware-api > sails > sails-hook-sockets > socket.io-client > engine.io-client > ws:
+        patched: '2016-07-24T17:20:47.153Z'
