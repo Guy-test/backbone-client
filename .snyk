@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:handlebars:20151207':
     - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
@@ -89,3 +91,164 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > sails > express-handlebars > handlebars > uglify-js:
         patched: '2016-06-26T22:48:56.754Z'
+  'npm:debug:20170905':
+    - sails-backbone > hashware-api > sails > skipper > connect > serve-static > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > express-session > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > express-session > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > express-session > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > express-session > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > express-session > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > express-session > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > finalhandler > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > finalhandler > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > finalhandler > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > finalhandler > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > finalhandler > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > finalhandler > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > morgan > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > morgan > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > serve-index > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > serve-index > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > body-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > body-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > compression > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > compression > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > connect-timeout > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > connect-timeout > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > connect-timeout > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > connect-timeout > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > connect-timeout > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > connect-timeout > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > connect > serve-static > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > serve-static > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > serve-static > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > serve-static > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > connect > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > serve-static > send > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > body-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > body-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > body-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > body-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > compression > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > compression > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > compression > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > compression > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > morgan > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > morgan > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > morgan > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > morgan > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > express > connect > serve-index > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > express > connect > serve-index > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > connect > serve-index > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > connect > serve-index > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io-client > engine.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io-client > engine.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > skipper > skipper-disk > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > skipper > skipper-disk > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > engine.io > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > engine.io > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > socket.io-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io-client > socket.io-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io-client > socket.io-parser > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > socket.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-client > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > sails > sails-hook-sockets > socket.io > socket.io-adapter > debug:
+        patched: '2017-10-01T23:15:18.637Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-hook-sockets > socket.io > socket.io-adapter > debug:
+        patched: '2017-10-01T23:15:18.637Z'
