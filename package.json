@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha --reporter spec",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,7 @@
     "sails-backbone": "^1.0.18",
     "sails-backbone-client": "latest",
     "twix": "^0.5.1",
-    "snyk": "1.16.0"
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "backbone": "^1.1.2",
