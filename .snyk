@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:handlebars:20151207':
     - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
@@ -89,3 +91,71 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > sails > express-handlebars > handlebars > uglify-js:
         patched: '2016-06-26T22:48:56.754Z'
+  'npm:http-signature:20150122':
+    - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request > http-signature:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request > http-signature:
+        patched: '2018-07-08T23:59:29.403Z'
+  'npm:lodash:20180130':
+    - sails-backbone > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-postgresql > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-postgresql > waterline-cursor > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-disk > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-backbone > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-backbone > sails-generate-entities > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > cgminer-api > congruence > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-redis > waterline-cursor > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-auth > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-permissions > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > waterline > waterline-schema > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails > sails-disk > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails > sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails > sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails > waterline > switchback > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails > waterline > waterline-schema > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails-backbone > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails-backbone > sails-generate-entities > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-disk > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > waterline > switchback > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-generate-entities > lodash:
+        patched: '2018-07-08T23:59:29.403Z'
