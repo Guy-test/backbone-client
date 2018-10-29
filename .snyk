@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:handlebars:20151207':
     - sails-backbone > hashware-api > sails > express-handlebars > handlebars:
@@ -49,6 +51,58 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
         patched: '2016-06-26T22:48:56.754Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > marlinspike > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails-permissions > sails-auth > marlinspike > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-10-29T00:00:02.659Z'
   'npm:ms:20151024':
     - sails-backbone > hashware-api > socket.io-redis > socket.io-adapter > debug > ms:
         patched: '2016-06-26T22:48:56.754Z'
@@ -89,3 +143,8 @@ patch:
         patched: '2016-06-26T22:48:56.754Z'
     - hashware-api > sails > express-handlebars > handlebars > uglify-js:
         patched: '2016-06-26T22:48:56.754Z'
+  'npm:tunnel-agent:20170305':
+    - sails-backbone > hashware-api > hashware-backbone-client > sails > grunt-contrib-less > less > request > tunnel-agent:
+        patched: '2018-10-29T00:00:02.659Z'
+    - sails-backbone > hashware-api > sails > grunt-contrib-less > less > request > tunnel-agent:
+        patched: '2018-10-29T00:00:02.659Z'
