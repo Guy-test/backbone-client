@@ -28,12 +28,12 @@
   },
   "homepage": "https://github.com/hashware/backbone-client",
   "dependencies": {
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.11",
     "moment": "^2.8.3",
     "sails-backbone": "^1.0.18",
     "sails-backbone-client": "latest",
     "twix": "^0.5.1",
-    "snyk": "1.16.0"
+    "snyk": "1.19.1"
   },
   "devDependencies": {
     "backbone": "^1.1.2",
