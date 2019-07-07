@@ -33,7 +33,7 @@
     "sails-backbone": "^1.0.18",
     "sails-backbone-client": "latest",
     "twix": "^0.5.1",
-    "snyk": "1.16.0"
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "backbone": "^1.1.2",
